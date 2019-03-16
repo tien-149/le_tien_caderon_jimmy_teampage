@@ -1,1 +1,5 @@
-# letien_jcaderon_teambio
+# Dynamic Team Page
+
+#### Created a team page using HTML, CSS and JavaScript.
+
+
