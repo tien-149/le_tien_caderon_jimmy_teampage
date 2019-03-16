@@ -134,6 +134,7 @@ nav ul li:first-child
 {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 50px;
+	margin-bottom: 35px;
 	animation: animationH .5s 1 0s ease-in;
 }
 
@@ -142,9 +143,10 @@ nav ul li:first-child
 	color: #828282;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	margin: 20px;
-	margin-bottom: 60px;
+	margin: 22px;
+	margin-bottom: 200px;
 	animation: animationP 2s 1 0s ease;
+	line-height: 17px;
 }
 
 @keyframes animationH{
@@ -171,7 +173,6 @@ nav ul li:first-child
 
 .return1, .return2
 {
-	margin: 0 auto;
 	text-decoration: none;
 	text-align: center;
 	color: #828282;
