@@ -117,6 +117,7 @@ nav ul li:first-child
 {
 	font-family: Myriad Pro;
 	margin-top: 50px;
+	animation: animationH .5s 1 0s ease-in;
 }
 
 .cover1 p, .cover2 p
@@ -126,8 +127,30 @@ nav ul li:first-child
 	font-family: Myriad Pro;
 	margin: 20px;
 	margin-bottom: 60px;
+	animation: animationP 2s 1 0s ease;
 }
 
+@keyframes animationH{
+    0%{
+        transform: translateY(-50%);
+        opacity: 0;
+        }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+        }
+}
+
+@keyframes animationP{
+    0%{
+        transform: translateY(8%);
+        opacity: 0;
+        }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+        }
+}
 
 .return1, .return2
 {
