@@ -3,7 +3,7 @@
 ####  Interactive team web application created with HTML, CSS and JavaScript.
 
 
-##Instructions:
+## Instructions:
 
 ### 1. Open the file index.html on your web browser. 
 ### 2. Click on the About button in the team member section to reveal his or her  information 
