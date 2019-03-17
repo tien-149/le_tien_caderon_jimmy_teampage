@@ -229,9 +229,13 @@ footer img
 	margin-left: auto;
 	margin-right: 5px;
 	margin-left: 5px;
+	filter: grayscale(1);
 }
 
-
+footer img:hover
+{
+	filter: none;
+}
 
 
 
